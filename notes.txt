@@ -9,8 +9,8 @@ cd build\lib
 ren XBeans-packaged.jar HelloWorldService-XBeans-packaged.jar
 copy *.* ..\..\..\..\..\..\custom-libs
 
-mvn install:install-file -DgroupId=custom -DartifactId=HelloWorldService-test-client -Dversion=1.0 -Dfile=C:\software\projects\source\poc\standAlone\custom-libs\HelloWorldService-test-client.jar -Dpackaging=jar -DgeneratePom=true
-mvn install:install-file -DgroupId=custom -DartifactId=HelloWorldService-XBeans-packaged -Dversion=1.0 -Dfile=C:\software\projects\source\poc\standAlone\custom-libs\HelloWorldService-XBeans-packaged.jar -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -DgroupId=custom -DartifactId=HelloWorldService-test-client -Dversion=1.0 -Dfile=cd D:\software\projects\source\gitProjects\standAlone\custom-libs\HelloWorldService-test-client.jar -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -DgroupId=custom -DartifactId=HelloWorldService-XBeans-packaged -Dversion=1.0 -Dfile=cd D:\software\projects\source\gitProjects\standAlone\custom-libs\HelloWorldService-XBeans-packaged.jar -Dpackaging=jar -DgeneratePom=true
 
 ###
 Maven general commands
@@ -33,6 +33,6 @@ To package and deploy app (make sure the server is up and running)
 http://java.sun.com/docs/books/tutorial/java/index.html
 
 ### CUSTOM LIB installation
-mvn install:install-file -DgroupId=custom -DartifactId=ezmorph -Dversion=1.0 -Dfile=C:\software\projects\source\poc\standAlone\custom-libs\ezmorph-1.0.jar -Dpackaging=jar -DgeneratePom=true
-mvn install:install-file -DgroupId=custom -DartifactId=json-lib-2.4-jdk15 -Dversion=2.4 -Dfile=C:\software\projects\source\poc\standAlone\custom-libs\json-lib-2.4-jdk15.jar -Dpackaging=jar -DgeneratePom=true
-mvn install:install-file -DgroupId=custom -DartifactId=schemaClasses -Dversion=1.0 -Dfile=C:\software\projects\source\poc\standAlone\custom-libs\schemaClasses.jar -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -DgroupId=custom -DartifactId=ezmorph -Dversion=1.0 -Dfile=cd D:\software\projects\source\gitProjects\standAlone\custom-libs\ezmorph-1.0.jar -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -DgroupId=custom -DartifactId=json-lib-2.4-jdk15 -Dversion=2.4 -Dfile=cd D:\software\projects\source\gitProjects\standAlone\custom-libs\json-lib-2.4-jdk15.jar -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -DgroupId=custom -DartifactId=schemaClasses -Dversion=1.0 -Dfile=cd D:\software\projects\source\gitProjects\standAlone\custom-libs\schemaClasses.jar -Dpackaging=jar -DgeneratePom=true
