@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.example.org/address" 
+	xmlns:tns="http://www.example.org/address" elementFormDefault="qualified">
+
+	<xs:element name="AddressDetails">
+		<xs:complexType id="AD">
+			<xs:sequence>
+				<xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="Address1" type="xs:string" />
+				<xs:element name="Address2" type="xs:string" />
+				<xs:element name="ZIP" type="xs:string" />
+				<xs:element name="Email" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

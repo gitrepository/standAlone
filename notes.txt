@@ -1,0 +1,38 @@
+cd D:\software\projects\source\gitProjects\standAlone
+mvn assembly:assembly
+
+###
+WebService Client General Note
+wsdl2java -uri http://localhost/axis2/services/HelloWorldService?wsdl -p com.ws.client -d xmlbeans -s -o src/ws/client/HelloWorldClient
+cd src\ws\client\HelloWorldClient
+cd build\lib
+ren XBeans-packaged.jar HelloWorldService-XBeans-packaged.jar
+copy *.* ..\..\..\..\..\..\custom-libs
+
+mvn install:install-file -DgroupId=custom -DartifactId=HelloWorldService-test-client -Dversion=1.0 -Dfile=C:\software\projects\source\poc\standAlone\custom-libs\HelloWorldService-test-client.jar -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -DgroupId=custom -DartifactId=HelloWorldService-XBeans-packaged -Dversion=1.0 -Dfile=C:\software\projects\source\poc\standAlone\custom-libs\HelloWorldService-XBeans-packaged.jar -Dpackaging=jar -DgeneratePom=true
+
+###
+Maven general commands
+
+Stand Alone project
+Package: 
+mvn assembly:assembly
+
+If having out of memory issues set the below and re try the above command
+>set MAVEN_OPTS=-Xms64m -Xmx256m
+Maven quick start options:
+>mvn archetype:generate
+To create a StandAlone java project: 
+>mvn archetype:generate (option 15)
+To create a sample web app: 
+>mvn archetype:create -DgroupId=springApp -DartifactId=projectName -DarchetypeArtifactId=maven-archetype-webapp
+To package and deploy app (make sure the server is up and running)
+>mvn package tomcat:redeploy
+
+http://java.sun.com/docs/books/tutorial/java/index.html
+
+### CUSTOM LIB installation
+mvn install:install-file -DgroupId=custom -DartifactId=ezmorph -Dversion=1.0 -Dfile=C:\software\projects\source\poc\standAlone\custom-libs\ezmorph-1.0.jar -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -DgroupId=custom -DartifactId=json-lib-2.4-jdk15 -Dversion=2.4 -Dfile=C:\software\projects\source\poc\standAlone\custom-libs\json-lib-2.4-jdk15.jar -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -DgroupId=custom -DartifactId=schemaClasses -Dversion=1.0 -Dfile=C:\software\projects\source\poc\standAlone\custom-libs\schemaClasses.jar -Dpackaging=jar -DgeneratePom=true

@@ -1,0 +1,1064 @@
+<?xml version="1.0"?>
+
+<envelope xmlns="http://www.nlets.org/envelope">
+
+  <rapSheet referenceDate="2002-01-30" xmlns="http://www.nlets.org/formats/rapsheet" version="2.22">
+
+    <introduction>
+
+      <rapSheetRequest id="0HJGTM1THN">
+
+        <fbiNumber>618079JA8</fbiNumber>
+
+        <stateBureauIDNumber issuingAuthority="WI">WI183246</stateBureauIDNumber>
+
+        <purposeCode>C</purposeCode>
+
+        <attention>OFC LYNCH</attention>
+
+      </rapSheetRequest>
+
+      <caveat issuingAuthority="WI" referenceDate="2002-01-30">The response is based on a search using the fingerprints and/or identification data supplied.  Searches based solely on name and non-unique identifiers are not fully reliable.  The CIB cannot guarantee that the information furnished pertains to the individual you are interested in.</caveat>
+
+    </introduction>
+
+    <person>
+
+      <personName type="Primary">
+
+        <firstName>ANTHONY</firstName>
+
+        <middleName>LOUIS</middleName>
+
+        <lastName>SCOTT</lastName>
+
+      </personName>
+
+      <personName type="AKA">
+
+        <firstName>TONY</firstName>
+
+        <lastName>LOUIS</lastName>
+
+      </personName>
+
+      <personDescription>
+
+        <sex>Male</sex>
+
+        <height units="Feet Inches" referenceDate="1990-08-31">509</height>
+
+        <weight units="Pounds" referenceDate="1990-08-31">130</weight>
+
+        <eyeColor referenceDate="1990-08-31">Brown</eyeColor>
+
+        <hairColor referenceDate="1990-08-31">Black</hairColor>
+
+        <scarsMarksTattoos referenceDate="1984-01-12">
+
+          <agency>
+
+            <ori>WI0415000</ori>
+
+          </agency>
+
+          <scarsMarksTattoosDescription codeSource="NCIC" codeValue="PRCD L EAR">PIERCED EAR, LEFT</scarsMarksTattoosDescription>
+
+        </scarsMarksTattoos>
+
+        <scarsMarksTattoos referenceDate="1985-09-11">
+
+          <agency>
+
+            <ori>WI0415000</ori>
+
+          </agency>
+
+          <scarsMarksTattoosDescription>SCAR CALF, RIGHT</scarsMarksTattoosDescription>
+
+        </scarsMarksTattoos>
+
+        <scarsMarksTattoos referenceDate="1988-07-29">
+
+          <agency>
+
+            <ori>WI00782800</ori>
+
+          </agency>
+
+          <scarsMarksTattoosDescription>SCAR LEG, RIGHT</scarsMarksTattoosDescription>
+
+          <image referenceDate="1988-07-29">
+
+            <agency>
+
+              <ori>WI0782800</ori>
+
+            </agency>
+
+            <imageData size="2K" mimeType="image/jpeg" contentEncoding="Base64" href="http://www.wi-doc.com/">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wAARCAAdAFoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDodEuPtFgGx8ykqfc1JqEaSWUhmhVyo3Fd+3oM8Hv0rjtMujZGQvK3zEt8g/xqe/1790pF0VHzffBZuhHAz79enX8Zi7oWlzrtJVngEjmXr8pYbSwx1Iye5Pv61prXlcfii6gRY7WS4cKAB5jjbj6Af17VK/jjVzhVkgjxx8se7+eaoR6iKr3WoWlmpNxcRx47Fua83HjTV5omUyQv77MEVjz3V5PP57TuJQ25WDcqfb0pgd7qfjXSkUxjzpCcj5UGBx3yaz4fG9gZGSaOYo7g7/LGcYxz83sPXOenrx5muDafZpGLR5zg4OPpnp+FMt8W8gfaG9QW4NID0axvbXUgjSXUDKoORgheT83UggdAM/j1wN43doFHl3VuMdAZBivJLW7eK582EOj5LfLLj+nvWj/b7XkSpGFglzjfuX/0HH8qLAdhrNzaR2d0pn3iSJz8shIDbflHy9u3PXjPSs7+04k+Ty3G3jCcr+GTnFYUk0rWMscl4ks7jaiFVUsCQOgHX73U9PfirgtwoADYA4A2L/UUA2iprcEkEMbWqP1JZlyduOhrlg7F8klj9a6mS9uo9qh0O7Gcqf8AGmNczPIjuIWdAQrFDxnAPeslNIq6OfgUSTojsY97BS5OAoJAyf1rQ2wG33jzUWRgwVQAMDI+736HJJ7AnrVq4tmnZpt0SPtKkrEDkfiTgj1HNSfZZhE4+0ZcjBcpyQD0Izg9T1Hc+tP2kRNnPSqPN+UYz/CM8e3Pp/SkVRzuB6cAg81vw6RFI5Esjs+SxccEk0h0KDeN8sjDPPSl7WIXMEg/3D+RoCt/zzz+BroTpUMP7tGPPdkRv5rUL6HEXLGVuvQKB/Kj2sQuYZBGcoRWgmn5sxKwTDglQXAbAByfQ8g+/FXJNIDnHnkAgEgIB/KrCWP7hoWmdgSpZj1IAIA/AEjj19KPaxC5S0qC5DRSJZxPHuUmQ8nj8eKU6Rf5+5GffIraeR/UHIzyKgE4wPkFT7byA//Z</imageData>
+
+            <comment>Prison intake photo</comment>
+
+          </image>
+
+        </scarsMarksTattoos>
+
+        <birthDate>1964-01-29</birthDate>
+
+        <birthPlace>
+
+          <birthPlaceData>Wisconsin</birthPlaceData>
+
+        </birthPlace>
+
+        <ethnicity>Black Or African American</ethnicity>
+
+        <race>Black</race>
+
+        <citizenship referenceDate="1990-08-31">United States</citizenship>
+
+        <maritalStatus referenceDate="1990-08-31">Married</maritalStatus>
+
+        <religion referenceDate="1990-08-31">None</religion>
+
+        <fbiNumber>618079JA8</fbiNumber>
+
+        <stateBureauIDNumber issuingAuthority="WI">WI183246</stateBureauIDNumber>
+
+        <ssn>397780005</ssn>
+
+        <dlNumber issuingAuthority="WI">S455-2826-4895-L</dlNumber>
+
+        <personalIDNumber type="Correctional ID" issuingAuthority="WI">146023-A</personalIDNumber>
+
+        <fingerprintPattern type="FPC">COPO1317161817131918</fingerprintPattern>
+
+        <skinTone>Medium</skinTone>
+
+        <bloodType>A Positive</bloodType>
+
+        <medicalCondition>Drug Abuse</medicalCondition>
+
+      </personDescription>
+
+      <fingerPrint type="Ten Print Set" referenceDate="1985-09-11">
+
+        <agency>
+
+          <ori>WI0415000</ori>
+
+        </agency>
+
+      </fingerPrint>
+
+      <palmPrint type="Both Palms" referenceDate="1985-09-11">
+
+        <agency>
+
+          <ori>WI0415000</ori>
+
+        </agency>
+
+        <comment>Juvenile</comment>
+
+      </palmPrint>
+
+      <photo type="Mugshot" referenceDate="1985-09-11">
+
+        <agency>
+
+          <ori>WI0415000</ori>
+
+        </agency>
+
+      </photo>
+
+      <dna contentEncoding="STR" referenceDate="1989-03-28">
+
+        <agency>
+
+          <ori>WI013415Y</ori>
+
+        </agency>
+
+        <dnaLocus type="Amelogenin">
+
+          <dnaLocusValue>X</dnaLocusValue>
+
+          <dnaLocusValue>Y</dnaLocusValue>
+
+        </dnaLocus>
+
+        <dnaLocus type="CSF1PO">
+
+          <dnaLocusValue>11</dnaLocusValue>
+
+          <dnaLocusValue>12</dnaLocusValue>
+
+        </dnaLocus>
+
+        <dnaLocus type="D13S317">
+
+          <dnaLocusValue>11</dnaLocusValue>
+
+        </dnaLocus>
+
+        <dnaLocus type="D16S539">
+
+          <dnaLocusValue>12</dnaLocusValue>
+
+        </dnaLocus>
+
+        <dnaLocus type="D18S51">
+
+          <dnaLocusValue>12</dnaLocusValue>
+
+          <dnaLocusValue>17</dnaLocusValue>
+
+        </dnaLocus>
+
+        <dnaLocus type="D21S11">
+
+          <dnaLocusValue>29.1</dnaLocusValue>
+
+          <dnaLocusValue>32.2</dnaLocusValue>
+
+        </dnaLocus>
+
+        <dnaLocus type="D3S1358">
+
+          <dnaLocusValue>14</dnaLocusValue>
+
+          <dnaLocusValue>17</dnaLocusValue>
+
+        </dnaLocus>
+
+        <dnaLocus type="D5S818">
+
+          <dnaLocusValue>11</dnaLocusValue>
+
+          <dnaLocusValue>12</dnaLocusValue>
+
+        </dnaLocus>
+
+        <dnaLocus type="D7S820">
+
+          <dnaLocusValue>9</dnaLocusValue>
+
+          <dnaLocusValue>12</dnaLocusValue>
+
+        </dnaLocus>
+
+        <dnaLocus type="D8S1179">
+
+          <dnaLocusValue>11</dnaLocusValue>
+
+        </dnaLocus>
+
+        <dnaLocus type="FGA">
+
+          <dnaLocusValue>22</dnaLocusValue>
+
+          <dnaLocusValue>24</dnaLocusValue>
+
+        </dnaLocus>
+
+        <dnaLocus type="TH01">
+
+          <dnaLocusValue>6</dnaLocusValue>
+
+          <dnaLocusValue>7</dnaLocusValue>
+
+        </dnaLocus>
+
+        <dnaLocus type="TPOX">
+
+          <dnaLocusValue>8</dnaLocusValue>
+
+        </dnaLocus>
+
+        <dnaLocus type="vWA">
+
+          <dnaLocusValue>14</dnaLocusValue>
+
+          <dnaLocusValue>16</dnaLocusValue>
+
+        </dnaLocus>
+
+        <comment>Convicted felon, prison release</comment>
+
+      </dna>
+
+      <employment referenceDate="1985-09-11">
+
+        <occupation>Metal stamping</occupation>
+
+        <employer>Kapco, Inc.</employer>
+
+        <physicalLocation>
+
+          <postalAddress>
+
+            <addressLine>1000 BADGER CIRCLE</addressLine>
+
+            <city>GRAFTON</city>
+
+            <county>MILWAUKEE</county>
+
+            <state>WI</state>
+
+            <postalCode>53716</postalCode>
+
+            <country>US</country>
+
+          </postalAddress>
+
+        </physicalLocation>
+
+      </employment>
+
+      <residence referenceDate="1985-09-11">
+
+        <physicalLocation>
+
+          <postalAddress>
+
+            <fullAddress>6025 N 61ST ST, Milwaukee, WI</fullAddress>
+
+          </postalAddress>
+
+        </physicalLocation>
+
+        <telephone>
+
+          <telephonePrefix>
+
+            <areaCode>262</areaCode>
+
+          </telephonePrefix>
+
+          <telephoneNumber>377-6500</telephoneNumber>
+
+        </telephone>
+
+      </residence>
+
+      <caution>Explosive expertise</caution>
+
+      <firearmSalesDisqualified>F</firearmSalesDisqualified>
+
+      <deceased type="Fingerprint Supported" referenceDate="1990-09-04">
+
+          <agency>
+
+            <ori>WI0415000</ori>
+
+          </agency>
+
+          <deceasedDate>1990-08-15</deceasedDate>
+
+      </deceased>
+
+      <offenderNotice issuingAuthority="WI" referenceDate="1990-09-04">Subject positively identified deceased.</offenderNotice>
+
+      <comment issuingAuthority="WI" referenceDate="1986-09-19">Felony offender.</comment>
+
+    </person>
+
+    <cycle>
+
+      <earliestDate>1984-01-12</earliestDate>
+
+      <cycleTrackingNumber>04151984375826</cycleTrackingNumber>
+
+      <arrest>
+
+        <agency>
+
+          <ori>WI0415000</ori>
+
+        </agency>
+
+        <bookingAgency>
+
+          <ori>WI0410000</ori>
+
+        </bookingAgency>
+
+        <personName>
+
+          <firstName>ANTHONY</firstName>
+
+          <middleName>LOUIS</middleName>
+
+          <lastName>SCOTT</lastName>
+
+        </personName>
+
+        <personalIDNumber type="Offender ID" issuingAuthority="Police Dept">169591</personalIDNumber>
+
+        <arrestDate>1984-01-12</arrestDate>
+
+        <arrestType>Adult</arrestType>
+
+        <charge>
+
+          <chargeNumber>01</chargeNumber>
+
+          <agency>
+
+            <ori>WI0415000</ori>
+
+          </agency>
+
+          <chargeName>BURGLARY</chargeName>
+
+          <chargeStatute>WI 943.10</chargeStatute>
+
+          <offenseCode codeSource="NCIC">2299</offenseCode>
+
+          <numberOfIdenticalCharges>01</numberOfIdenticalCharges>
+
+          <chargeSeverity>Felony</chargeSeverity>
+
+        </charge>
+
+        <charge>
+
+          <chargeNumber>02</chargeNumber>
+
+          <agency>
+
+            <ori>WI0415000</ori>
+
+          </agency>
+
+          <chargeName>UNIFORM CONTROLLED SUBSTANCES ACT</chargeName>
+
+          <chargeStatute>WI 161.41</chargeStatute>
+
+          <offenseCode codeSource="NCIC">3562</offenseCode>
+
+          <numberOfIdenticalCharges>01</numberOfIdenticalCharges>
+
+          <chargeSeverity>Misdemeanor</chargeSeverity>
+
+        </charge>
+
+      </arrest>
+
+      <prosecutorDisposition>
+
+        <agency>
+
+          <ori>WI041013A</ori>
+
+        </agency>
+
+        <personName>
+
+          <firstName>ANTHONY</firstName>
+
+          <middleName>LOUIS</middleName>
+
+          <lastName>SCOTT</lastName>
+
+        </personName>
+
+        <charge>
+
+          <chargeNumber>01</chargeNumber>
+
+          <agency>
+
+            <ori> WI041013A</ori>
+
+          </agency>
+
+          <chargeName>BURGLARY</chargeName>
+
+          <chargeStatute>WI 943.10</chargeStatute>
+
+          <offenseCode codeSource="NCIC">2299</offenseCode>
+
+          <numberOfIdenticalCharges>01</numberOfIdenticalCharges>
+
+          <chargeSeverity>Felony</chargeSeverity>
+
+          <chargeDisposition type="Dismissed" referenceDate="1984-01-13">NO PROSECUTION</chargeDisposition>
+
+        </charge>
+
+        <charge>
+
+          <chargeNumber>02</chargeNumber>
+
+          <agency>
+
+            <ori>WI041013A</ori>
+
+          </agency>
+
+          <chargeName>UNIFORM CONTROLLED SUBSTANCES ACT</chargeName>
+
+          <chargeStatute>WI 161.41</chargeStatute>
+
+          <offenseCode codeSource="NCIC">3562</offenseCode>
+
+          <numberOfIdenticalCharges>01</numberOfIdenticalCharges>
+
+          <chargeSeverity>Misdemeanor</chargeSeverity>
+
+          <chargeDisposition type="Dismissed" referenceDate="1984-01-13">NO PROSECUTION</chargeDisposition>
+
+        </charge>
+
+      </prosecutorDisposition>
+
+    </cycle>
+
+    <cycle>
+
+      <earliestDate>1984-01-13</earliestDate>
+
+      <arrest>
+
+        <agency>
+
+          <ori>WI0410000</ori>
+
+        </agency>
+
+        <personName>
+
+          <firstName>ANTHONY</firstName>
+
+          <middleName>LOUIS</middleName>
+
+          <lastName>SCOTT</lastName>
+
+        </personName>
+
+        <arrestDate>1984-01-13</arrestDate>
+
+        <arrestType>Adult</arrestType>
+
+        <arrestCaseNumber>58514</arrestCaseNumber>
+
+        <comment>HELD OVER</comment>
+
+        <charge>
+
+          <chargeNumber>01</chargeNumber>
+
+          <chargeName>FAILURE TO APPEAR</chargeName>
+
+          <chargeSeverity>Misdemeanor</chargeSeverity>
+
+          <chargeDisposition type="Other" referenceDate="1984-01-13">TURNED OVER TO COURT</chargeDisposition>
+
+        </charge>
+
+      </arrest>
+
+    </cycle>
+
+    <cycle>
+
+      <earliestDate>1985-09-11</earliestDate>
+
+      <cycleTrackingNumber>04151985849674</cycleTrackingNumber>
+
+      <arrest>
+
+        <agency>
+
+          <ori>WI0415000</ori>
+
+        </agency>
+
+        <personName>
+
+          <firstName>ANTHONY</firstName>
+
+          <middleName>LOUIS</middleName>
+
+          <lastName>SCOTT</lastName>
+
+        </personName>
+
+        <personalIDNumber type="Offender ID" issuingAuthority="Police Dept">169591</personalIDNumber>
+
+        <arrestDate>1985-09-11</arrestDate>
+
+        <arrestType>Adult</arrestType>
+
+        <charge>
+
+          <chargeNumber>01</chargeNumber>
+
+          <chargeName>POSSESSION NARCOTICS W/INTENT DELIVER</chargeName>
+
+          <chargeStatute>WI 161.41(1M)(B)</chargeStatute>
+
+          <offenseCode codeSource="NCIC">3599</offenseCode>
+
+          <numberOfIdenticalCharges>01</numberOfIdenticalCharges>
+
+          <chargeSeverity>Felony</chargeSeverity>
+
+        </charge>
+
+      </arrest>
+
+      <courtDisposition>
+
+        <agency>
+
+          <ori>WI041000J</ori>
+
+        </agency>
+
+        <courtCaseNumber>L-3018</courtCaseNumber>
+
+        <charge>
+
+          <chargeNumber>01</chargeNumber>
+
+          <chargeName>POSSESSION NARCOTICS W/INTENT DELIVER</chargeName>
+
+          <chargeStatute>WI 161.41(1M)(B)</chargeStatute>
+
+          <offenseCode codeSource="NCIC">3599</offenseCode>
+
+          <numberOfIdenticalCharges>01</numberOfIdenticalCharges>
+
+          <chargeSeverity>Felony</chargeSeverity>
+
+          <chargeDisposition type="Convicted" referenceDate="1986-09-18">CONVICTED</chargeDisposition>
+
+        </charge>
+
+      </courtDisposition>
+
+      <sentencing>
+
+        <agency>
+
+          <ori>WI041000J</ori>
+
+        </agency>
+
+        <courtCaseNumber>L-3018</courtCaseNumber>
+
+        <chargeNumber>01</chargeNumber>
+
+        <sentence referenceDate="1986-09-18">PROBATION, 3 YEARS</sentence>
+
+      </sentencing>
+
+    </cycle>
+
+    <cycle>
+
+      <earliestDate>1985-11-09</earliestDate>
+
+      <cycleTrackingNumber>04151985984967</cycleTrackingNumber>
+
+      <arrest>
+
+        <agency>
+
+          <ori>WI0415000</ori>
+
+        </agency>
+
+        <personName>
+
+          <firstName>TONY</firstName>
+
+          <lastName>LOUIS</lastName>
+
+        </personName>
+
+        <personalIDNumber type="Offender ID" issuingAuthority="Police Dept">169591</personalIDNumber>
+
+        <arrestDate>1985-11-09</arrestDate>
+
+        <arrestType>Adult</arrestType>
+
+        <charge>
+
+          <chargeNumber>01</chargeNumber>
+
+          <chargeName>INJURY BY NEGLIGENT USE OF WEAPON/ EXPLOSIVE</chargeName>
+
+          <chargeStatute>WI 940.24</chargeStatute>
+
+          <offenseCode codeSource="NCIC">1315</offenseCode>
+
+          <numberOfIdenticalCharges>01</numberOfIdenticalCharges>
+
+          <chargeSeverity>Felony</chargeSeverity>
+
+        </charge>
+
+      </arrest>
+
+      <prosecutorDisposition>
+
+        <agency>
+
+          <ori>WI041013A</ori>
+
+        </agency>
+
+        <charge>
+
+          <chargeNumber>01</chargeNumber>
+
+          <chargeName>INJURY BY NEGLIGENT USE OF WEAPON/ EXPLOSIVE</chargeName>
+
+          <chargeStatute>WI 940.24</chargeStatute>
+
+          <offenseCode codeSource="NCIC">1315</offenseCode>
+
+          <numberOfIdenticalCharges>01</numberOfIdenticalCharges>
+
+          <chargeSeverity>Felony</chargeSeverity>
+
+          <chargeDisposition type="Dismissed" referenceDate="1986-04-16">NO PROSECUTION</chargeDisposition>
+
+        </charge>
+
+      </prosecutorDisposition>
+
+    </cycle>
+
+    <cycle>
+
+      <earliestDate>1988-07-29</earliestDate>
+
+      <corrections>
+
+        <agency>
+
+          <ori>WI0782800</ori>
+
+        </agency>
+
+        <personName>
+
+          <firstName>ANTHONY</firstName>
+
+          <middleName>LOUIS</middleName>
+
+          <lastName>SCOTT</lastName>
+
+        </personName>
+
+        <personalIDNumber type="Correctional ID" issuingAuthority="WI">146023-A</personalIDNumber>
+
+        <correctionAction referenceDate="1988-07-29">PRISON INTAKE</correctionAction>
+
+        <correctionAction>CONFINED, 2 YEARS</correctionAction>
+
+        <comment>POSSESSION W/INTENT TO DELIVER</comment>
+
+        <comment>1989-03-28 PAROLE</comment>
+
+        <comment>1989-12-02 DISCHARGE</comment>
+
+      </corrections>
+
+    </cycle>
+
+    <cycle>
+
+      <earliestDate>1989-03-28</earliestDate>
+
+      <corrections>
+
+        <agency>
+
+          <ori>WI0782800</ori>
+
+        </agency>
+
+        <personName>
+
+          <firstName>ANTHONY</firstName>
+
+          <middleName>LOUIS</middleName>
+
+          <lastName>SCOTT</lastName>
+
+        </personName>
+
+        <personalIDNumber type="Correctional ID" issuingAuthority="WI">146023-A</personalIDNumber>
+
+        <correctionAction referenceDate="1989-03-28">PAROLE</correctionAction>
+
+      </corrections>
+
+    </cycle>
+
+    <cycle>
+
+      <earliestDate>1989-05-02</earliestDate>
+
+      <cycleTrackingNumber>041519893940953</cycleTrackingNumber>
+
+      <arrest>
+
+        <agency>
+
+          <ori>WI0415000</ori>
+
+        </agency>
+
+        <personName>
+
+          <firstName>ANTHONY</firstName>
+
+          <middleName>LOUIS</middleName>
+
+          <lastName>SCOTT</lastName>
+
+        </personName>
+
+        <personalIDNumber type="Offender ID" issuingAuthority="Police Dept">169591</personalIDNumber>
+
+        <arrestDate>1985-09-11</arrestDate>
+
+        <arrestType>Adult</arrestType>
+
+        <charge>
+
+          <chargeNumber>01</chargeNumber>
+
+          <chargeName>POSSESSION NARCOTICS W/INTENT DELIVER</chargeName>
+
+          <chargeStatute>WI 161.41(1M)(B)</chargeStatute>
+
+          <offenseCode codeSource="NCIC">3599</offenseCode>
+
+          <numberOfIdenticalCharges>01</numberOfIdenticalCharges>
+
+          <chargeSeverity>Felony</chargeSeverity>
+
+        </charge>
+
+      </arrest>
+
+      <prosecutorDisposition>
+
+        <agency>
+
+          <ori>WI041013A</ori>
+
+        </agency>
+
+        <charge>
+
+          <chargeNumber>01</chargeNumber>
+
+          <chargeName>POSSESSION NARCOTICS W/INTENT DELIVER</chargeName>
+
+          <chargeStatute>WI 161.41(1M)(B)</chargeStatute>
+
+          <offenseCode codeSource="NCIC">3599</offenseCode>
+
+          <numberOfIdenticalCharges>01</numberOfIdenticalCharges>
+
+          <chargeSeverity>Felony</chargeSeverity>
+
+          <chargeDisposition type="Dismissed" referenceDate="1989-05-03">NO PROSECUTION</chargeDisposition>
+
+        </charge>
+
+      </prosecutorDisposition>
+
+    </cycle>
+
+    <cycle>
+
+      <earliestDate>1990-08-31</earliestDate>
+
+      <arrest>
+
+        <agency>
+
+          <ori>WI0680000</ori>
+
+        </agency>
+
+        <personName>
+
+          <firstName>ANTHONY</firstName>
+
+          <middleName>LOUIS</middleName>
+
+          <lastName>SCOTT</lastName>
+
+        </personName>
+
+        <arrestDate>1985-09-11</arrestDate>
+
+        <arrestType>Adult</arrestType>
+
+        <arrestCaseNumber>55824</arrestCaseNumber>
+
+        <charge>
+
+          <chargeNumber>01</chargeNumber>
+
+          <chargeName>POSSESSION OF THC</chargeName>
+
+          <chargeStatute>WI 161.41(3R))</chargeStatute>
+
+          <offenseCode codeSource="NCIC">3599</offenseCode>
+
+          <numberOfIdenticalCharges>01</numberOfIdenticalCharges>
+
+          <chargeSeverity>Misdemeanor</chargeSeverity>
+
+        </charge>
+
+      </arrest>
+
+    </cycle>
+
+    <agencyIndex>
+
+      <agencyInformation>
+
+        <agency>
+
+          <entityName>MILWAUKEE POLICE DEPARTMENT</entityName>
+
+          <ori>WI0415000</ori>
+
+        </agency>
+
+        <physicalLocation>
+
+          <postalAddress>
+
+            <addressLine>821 WEST STATE STREET</addressLine>
+
+            <city>MILWAUKEE</city>
+
+            <county>MILWAUKEE</county>
+
+            <state>WI</state>
+
+            <postalCode>53233</postalCode>
+
+            <country>US</country>
+
+          </postalAddress>
+
+        </physicalLocation>
+
+        <telephone>
+
+          <telephonePrefix>
+
+            <areaCode>414</areaCode>
+
+          </telephonePrefix>
+
+          <telephoneNumber>278-4720</telephoneNumber>
+
+        </telephone>
+
+        <fax>
+
+          <telephone>
+
+            <telephonePrefix>
+
+              <areaCode>414</areaCode>
+
+            </telephonePrefix>
+
+            <telephoneNumber>278-1386</telephoneNumber>
+
+          </telephone>
+
+        </fax>
+
+        <department>IDENTIFICATION</department>
+
+        <contactPerson>KEITH BRZEZINSKI</contactPerson>
+
+      </agencyInformation>
+
+      <agencyInformation>
+
+        <agency>
+
+          <entityName>MILWAUKEE COUNTY DISTRICT ATTY</entityName>
+
+          <ori>WI041013A</ori>
+
+        </agency>
+
+      </agencyInformation>
+
+      <agencyInformation>
+
+        <agency>
+
+          <entityName>MILWAUKEE COUNTY SHERIFF</entityName>
+
+          <ori>WI0410000</ori>
+
+        </agency>
+
+      </agencyInformation>
+
+      <agencyInformation>
+
+        <agency>
+
+          <entityName>MILWAUKEE CO CIRCUIT COURT</entityName>
+
+          <ori>WI041000J</ori>
+
+        </agency>
+
+      </agencyInformation>
+
+      <agencyInformation>
+
+        <agency>
+
+          <entityName>DODGE CORRECTIONAL INSTITUTION</entityName>
+
+          <ori>WI0782800</ori>
+
+        </agency>
+
+      </agencyInformation>
+
+      <agencyInformation>
+
+        <agency>
+
+          <entityName>WAUKESHA COUNTY SHERIFF</entityName>
+
+          <ori>WI0680000</ori>
+
+        </agency>
+
+      </agencyInformation>
+
+    </agencyIndex>
+
+  </rapSheet>
+
+</envelope>
+

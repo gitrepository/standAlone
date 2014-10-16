@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="xmlbeans-gen">
+    <!--Auto generated ant build file-->
+    <property environment="env"/>
+    <property name="axis2.home" value="${env.AXIS2_HOME}"/>
+    <property name="project.base.dir" value="."/>
+    <property name="src" value="${project.base.dir}/src"/>
+	<path id="axis2.class.path">
+        <fileset dir="${axis2.home}">
+            <include name="lib/*.jar"/>
+        </fileset>
+    </path>
+
+    <taskdef name="xmlbean"
+     classname="org.apache.xmlbeans.impl.tool.XMLBean"
+     classpathref="axis2.class.path"/>
+
+    <target name="xmlbeans-gen">
+	<xmlbean schema="schemas" destfile="standAlone-XBeans.jar"
+    		classpathref="axis2.class.path" srcgendir="src"/>
+    </target>
+</project>

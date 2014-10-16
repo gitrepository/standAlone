@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AddressDetails xmlns="http://www.example.org/address">
+	<Name>Name #2</Name>
+	<Address1>Address #2</Address1>
+	<Address2>Deep Space Nine</Address2>
+	<ZIP>11590</ZIP>
+</AddressDetails>

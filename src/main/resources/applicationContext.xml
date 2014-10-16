@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+    <bean id="application" class="com.oxm.Application">
+        <property name="marshaller" ref="castorMarshaller" />
+        <property name="unmarshaller" ref="castorMarshaller" />
+    </bean>
+    <bean id="castorMarshaller" class="org.springframework.oxm.castor.CastorMarshaller"/>
+    
+    <bean id="s1" class="com.spring.core.SingleTon">
+    	<property name="sc" ref="s1c"/>
+    	<property name="pc" ref="p1c"/>
+    </bean>
+    
+    <bean id="s2" class="com.spring.core.SingleTon"/>
+
+	<bean id="s1c" class="com.spring.core.SingleTon"/>
+	
+    <bean id="p1" class="com.spring.core.ProtoType" scope="prototype"/>
+    
+    <bean id="p1c" class="com.spring.core.ProtoType" scope="prototype"/>
+
+</beans>

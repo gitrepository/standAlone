@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<group><person-list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.oxm.Person"><fn>1</fn><ln>1</ln></person-list><person-list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="java:com.oxm.Person"><fn>2</fn><ln>2</ln></person-list></group>

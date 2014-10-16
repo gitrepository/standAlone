@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="noncvs" default="copyNonCVS">
+
+	<property name="copyDir" value="D:\software\projects\source\standAlone\nonCVS"/>
+
+	<target name="copyNonCVS" description="Build initialization">
+		<delete dir="${copyDir}"/>
+		<mkdir dir="${copyDir}"/>
+
+		<copy todir="${copyDir}">
+			<fileset dir="D:\software\projects\source\standAlone">
+				<include name="**/*.*"/>
+				<exclude name="CVS/*.*"/>
+			</fileset>
+		</copy>
+	</target>
+</project>

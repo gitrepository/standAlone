@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<add:AddressDetails xmlns:add="http://www.example.org/address">
+	<add:Name>Laurence Moroney</add:Name>
+	<add:Address1>123 Habitat Ring 2</add:Address1>
+	<add:Address2>Deep Space Nine</add:Address2>
+	<add:ZIP>11590</add:ZIP>
+	<add:Email>moroney@ds9.starfleet.com</add:Email>
+</add:AddressDetails>
